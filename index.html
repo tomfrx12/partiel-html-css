@@ -1,35 +1,39 @@
 <!--Maquette fournie : https://www.figma.com/design/u9UzdxpZINzJ2fZvh4snae/NWS---Evaluation-Integration-HTML-CSS?node-id=0-1&t=H6Ges9EuC6PUZhAe-1-->
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
     <title>Partiel-HTML-CSS</title>
 </head>
 <body>
     <header class="header">
         <img src="/ressources/logo_figma.png" alt="Logo_Figma"/>
-        <nav class="nav">
+        <nav class="navigation">
             <a href="#">Home</a>
             <a href="#">Service</a>
             <a href="#">Feature</a>
             <a href="#">Product</a>
             <a href="#">Testimonial</a>
             <a href="#">FAQ</a>
+            <!-- <button class="menu">|||</button> -->
         </nav>
-        <nav>
-            <button class="button" type="button">Login</button>
-            <button class="button" type="button">Sign up</button>
+        <nav class="buttons">
+            <a href="#" class="button-login">Login</a>
+            <a href="#" class="button-signup">Sign up</a>
         </nav>
     </header>
-
 
     <main class="main">
         <section class="home">
             <section class="hero-section">
                 <div class="frame1">
-                    <p>Lessons and insights from 8 years</p>
+                    <h1>Lessons and insights<span> from 8 years</span></h1>
                     <p>Where to grow your business as a photographer: site or social media?</p>
                     <button class="button-left" type="button">Register</button>
                 </div>
@@ -93,7 +97,6 @@
             </div>
         </section>
     </main>
-
 
     <footer class="footer">
         <div>
