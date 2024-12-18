@@ -37,12 +37,16 @@ body{
 
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: var(--color-neutral);
     gap: 145px;
-    padding: 22px 105px;
+    padding: 22px 0px;
     width: 1440.98px;
+}
+
+.header img {
+    padding-left: 105px;
 }
 
 .header .navigation{
@@ -68,6 +72,10 @@ body{
     text-decoration: none;
     color: var(--color-black);
     font-family: var(--font-family);
+}
+
+.buttons{
+    padding-right: 105px;
 }
 
 .button-login {
@@ -255,48 +263,51 @@ body{
 
 
 .footer {
-    display: flex;
-    align-items: center;
-    padding: 0px 144px;
+    width: 1440px
 }
 
 .container-footer {
     background-color: #ffffff;
+    margin-top: 42px;
 }
 
 .hfooter{
     background-color: var(--color-neutral);
+    margin: 0px 120px 42px 120px;
+    border-radius: 8px;
+    padding: 64px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-/*.hfooter{
-    padding: 64px 0px;
-    border-radius: 8px;
-    background-color: var(--color-neutral);
-}*/
-
-/* .hfooter p {
+.hfooter p {
     color: var(--color-black);
     font-size: var(--font-size-64px);
     font-weight: var(--font-weight-600);
     line-height: 76px;
+    text-align: center;
+    margin-bottom: 32px;
 }
 
-.hfooter a{
-    width: 154px;
-    height: 52px;
+.button-get_a_demo {
+    background-color: var(--color-primary);
+    color: #ffffff;
     padding: 14px 32px;
     border-radius: 4px;
-    background-color: var(--color-primary);
     font-size: var(--font-size-16px);
     font-weight: var(--font-weight-500);
     line-height: 24px;
-} */
+    text-align: center;
+}
 
 .ffooter {
     background-color: var(--color-black);
     padding: 64px 165px;
     display: flex;
     gap: 8px;
+    justify-content: center;
 }
 
 .ffooter p {
