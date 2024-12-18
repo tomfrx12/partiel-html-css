@@ -7,20 +7,12 @@
     --color-primary: #4CAF4F;
     /* Texte */
     --font-family:"inter", sans-serif;
-<<<<<<< HEAD
     /* Épaiseur Texte */
-=======
-
->>>>>>> 59603166b9167d251c2299be2d97c4365b0ef9dc
     --font-weight-400: 400;
     --font-weight-500: 500;
     --font-weight-600: 600;
     --font-weight-700: 700;
-<<<<<<< HEAD
     /* Taille Texte */
-=======
-
->>>>>>> 59603166b9167d251c2299be2d97c4365b0ef9dc
     --font-size-14px: 0.875rem;
     --font-size-16px: 1rem;
     --font-size-28px: 1.75rem;
